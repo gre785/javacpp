@@ -31,19 +31,19 @@
 	</properties>
 	<dependencies>
 
-         <dependency>
+      <dependency>
             <groupId>org.bytedeco</groupId>
             <artifactId>javacv</artifactId>
             <version>1.5.10</version>
-         </dependency>
-         <dependency>
-            <groupId>org.bytedeco.javacpp-presets</groupId>
+      </dependency>
+		<dependency>
+            <groupId>org.bytedeco</groupId>
             <artifactId>opencv</artifactId>
             <classifier>linux-x86_64</classifier>
             <version>4.9.0-1.5.10</version>
          </dependency>
          <dependency>
-            <groupId>org.bytedeco.javacpp-presets</groupId>
+            <groupId>org.bytedeco</groupId>
             <artifactId>ffmpeg</artifactId>
             <classifier>linux-x86_64</classifier>
             <version>6.1.1-1.5.10</version>
