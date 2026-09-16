@@ -1,10 +1,9 @@
 package com.example.demo;
 
-import org.bytedeco.javacv.FFmpegFrameRecorder;
 
 public class DemoApplication {
 
-FFmpegFrameRecorder recorder;
+org.bytedeco.ffmpeg.global.avcodec avc;
 
 	public static void main(String[] args) {
 		System.out.println("x");
